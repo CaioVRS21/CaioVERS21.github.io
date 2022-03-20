@@ -5,44 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../projeto-flexbox/estilos/projeto-flexbox.css">
+    <script src="https://kit.fontawesome.com/cc65d094e3.js" crossorigin="anonymous"></script>
     <title>Teste de Habilidade</title>
 </head>
 <body>
-    <header class="cabeçalho">
-        <div class="flextitulo">Flexbox</div>
-        <nav class="menu" ><a href="#">Home</a></nav>
-        <nav class="menu" ><a href="#">About</a></nav>
-        <nav class="menu" ><a href="#">Contact</a></nav>
-    </header>
-    <main>
-        <div class="parte-cima">
-            <div class="texto-esquerda">
-             <h2 class="conteudo1">Flexbox Crash Course</h2>
-             <p class="conteudo1">Curso criado por Brad Traversy para ensinar sobre flexbox</p>
+    <nav class="menu" >
+        <div class="container">
+            <div class="logo">Flexbox</div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+   <header class="header">
+       <div class="container">
+           <div>
+               <h1>Flexbox Crash Course</h1>
+               <p>This crash course was created by Brad Traversy to help you learn the basics of flexbox. Flexbox is a very important and useful tool in CSS.</p>
+           </div>
+           <img src="../projeto-flexbox/imagens/grid.svg" alt="quadradinhos" title="quadradinhos">
+       </div>
+   </header>
+   <section class="boxes">
+        <div class="container">
+            <div class="box">
+                <h2><i class="fa-solid fa-arrows-left-right"></i> Alignment & Space</h2>
+                <p>A more efficient way to lay out, align and distribute space among items in a container</p>
             </div>
-            <div class="quadrados">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="box">
+                <h2><i class="fa-solid fa-up-down-left-right"></i> Tricky Positioning</h2>
+                <p>Flexbox usually solves tricky problems including how to position or dynamically resize elements on a page</p>
+            </div>
+        
+            <div class="box">
+                <h2><i class="fa-solid fa-mobile"></i> Responsive Design</h2>
+                <p>Flexbox makes building a website layout (and making it responsive!) much, much easier</p>
             </div>
         </div>
-        <div class="parte-baixo">
-            <div class="caixas-texto">
-               <h3>Alinhamento & Espaço</h3> 
-               <p>Um modo mais eficiente de se posicionar, alinhar e distribuir espaço entre itens de um container</p>
-            </div>
-            <div class="caixas-texto">
-                <h3>Posicionamento Complicado</h3>
-                <p>Flexbox normalmente soluciona os probleminhas chatos de posicionamento como posicionar ou dinâmicamente mudar o tamanho de itens em uma página</p>
-            </div>
-            <div class="caixas-texto">
-                <h3>Design Responsivo</h3>
-                <p>Flexbox faz com que a contrução do layout de um site (e o tornar responsivo!)muito mais fácil</p>
-            </div>
-        </div>
-    </main>
+   </section>
+
 </body>
 </html>
