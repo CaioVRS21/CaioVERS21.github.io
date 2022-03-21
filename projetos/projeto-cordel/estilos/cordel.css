@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.cabecalho{
+    background: black;
+}
+.cabecalho{
+    justify-content: center;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
