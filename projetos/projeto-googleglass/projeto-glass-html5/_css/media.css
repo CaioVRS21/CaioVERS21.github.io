@@ -1,2 +1,17 @@
 @charset "UTF-8";
 
+.tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background-image: url(projetos\projeto-googleglass\projeto-glass-html5\_imagens\radio-tv.png) no-repeat;
+}
+/*
+#musica{
+    display: block;
+    position: relative;
+    width:300px;
+    left:500px;
+    top:50px;
+
+}*/
