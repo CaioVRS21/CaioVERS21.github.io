@@ -14,9 +14,10 @@
     position: absolute;
     top: -20px;
     left: 475px;
+    display: flex;
 }
 .menu li{
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;

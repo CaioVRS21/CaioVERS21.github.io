@@ -4,14 +4,22 @@
     width: 900px;
     height: 580px;
     margin: auto;
-    background-image: url(projetos\projeto-googleglass\projeto-glass-html5\_imagens\radio-tv.png) no-repeat;
+    background-image: url(../_imagens/radio-tv.png);
 }
-/*
+
 #musica{
     display: block;
     position: relative;
     width:300px;
-    left:500px;
-    top:50px;
+    left:575px;
+    top:205px;
 
-}*/
+}
+
+#filmes{
+    display: block;
+    position: relative;
+    width: 500px;
+    left: 50px;
+    top: 100px;
+}
